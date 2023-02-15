@@ -11,6 +11,7 @@ void dfile()
 
 bool subsequence(int a[],int n,int index,vector<int> output,int sum,int k)
 {
+    //If you need the same length of ans as array you implement a check
     if(index>=n)
     {
         if(sum==k)
